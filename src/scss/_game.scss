@@ -1,0 +1,12 @@
+.game {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 35vw;
+    width: 35vw;
+
+    div {
+        border: 1px solid black;
+    }
+}
